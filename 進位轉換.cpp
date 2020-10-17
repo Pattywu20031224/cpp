@@ -6,8 +6,7 @@ int main(){
 	while(cin>>num && num>=0){
 		if(num==0){
 			cout<<"0 \n";
-		}
-		else{
+		}else{
 			int i;
 			int k=0;
 			for(i=0; num>0; i++, num/=3){
